@@ -1,8 +1,7 @@
-
 local whitelist = {
-    "Walmartbag0313",  
+    "Walmartbag0313",
+    "yukjm2",  
 }
-
 
 local function isWhitelisted(playerName)
     for _, name in pairs(whitelist) do
@@ -13,14 +12,11 @@ local function isWhitelisted(playerName)
     return false
 end
 
-
 local playerName = game.Players.LocalPlayer.Name
-
 
 if isWhitelisted(playerName) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/eyu1111/petgopetgo/refs/heads/main/1111", true))()
 else
-    
     game.StarterGui:SetCore("SendNotification", {
         Title = "访问被拒绝";  
         Text = "你没有权限使用此脚本。";  
