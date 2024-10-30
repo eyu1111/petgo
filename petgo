@@ -18,7 +18,7 @@ local player = game.Players.LocalPlayer
 displayAnnouncement(player, "加微信wby11116666")
 local whitelist = {
     "Walmartbag0313",
-    "yukjm2",  
+    "qwrrtyuiopdfhkll",  
 }
 
 local function isWhitelisted(playerName)
